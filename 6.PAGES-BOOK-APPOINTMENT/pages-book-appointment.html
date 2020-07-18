@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProMedi - Pages - Book Appointment</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/3077fe3d43.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="./Assets/CSS/pages-book-appointment.css">
+    <link rel="icon" type="image/png" href="./Assets/IMG/favicon6.png">
+</head>
+
+<body>
+    <div class="loader gorunur">
+        <i class="fas fa-heart heart-icon"></i>
+    </div>
+
+    <header>
+        <div class="header-info container">
+            <div class="row header-info py-3">
+                <div class="col-lg-8 col-md-8 col-sm-12 left-header-info">
+                    <ul>
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-phone-alt "></i>
+                            <p class="ml-1">Call us: +44 458 7895</p>
+                        </li>
+                        <li class="d-flex  align-items-center ml-4"><i class="fas fa-map-marker-alt"></i>
+                            <p class="ml-1">Bilasuvar city, Azerbaijan</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 right-header-info">
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <nav class="real-nav" role="navigation">
+            <div class="container navbar-container">
+                <div class="row navbar-inside-div py-3">
+                    <div class="navbar-left col-lg-2 col-md-2 d-flex align-items-center">
+                        <img src="./Assets/IMG/logo.png" alt="Demo">
+                    </div>
+                    <div class="navbar-center text-center py-3 col-lg-7 col-md-7">
+                        <ul class="d-flex justify-content-center align-items-center justify-content-around">
+                            <li id="li-homes"><a href="#" id="homeul" class="d-flex">HOME <i
+                                        class="fas fa-sort-down"></i></a>
+                                <ul class="dropdown-homes">
+                                    <li><a href="../1.HOMES/promedi-homes.html">Home Demo 1</a></li>
+                                    <li><a href="../1.HOMES/promedi-homes.html">Home Demo 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../2.ABOUT/promedi-about.html" class="navbar-center-dark-as">ABOUT</a></li>
+                            <li id="li-departments"><a href="#" class="d-flex navbar-center-dark-as">DEPARTMENTS <i
+                                        class="fas fa-sort-down"></i></a>
+                                <ul class="dropdown-departments">
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Cardiology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Gynecology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Neurology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Orthopedics</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Gastrology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Pulmonology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Laboratory</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Urology</a></li>
+                                </ul>
+                            </li>
+                            <li id="li-pages"><a style="color: #396cf0;" class="d-flex navbar-center-dark-as" href="#"
+                                    class="navbar-center-dark-as">PAGES <i class="fas fa-sort-down"></i></a>
+                                <ul class="dropdown-pages">
+                                    <li><a href="../4.PAGES-SERVICES/promedi-pages-services.html">Services</a></li>
+                                    <li><a href="../5.PAGES-SINGLE-DOCTOR/pages-single-doctor.html">Our Doctor</a></li>
+                                    <li><a href="../5.PAGES-SINGLE-DOCTOR/pages-single-doctor.html">Single Doctor</a>
+                                    </li>
+                                    <li><a style="color: #396cf0;"
+                                            href="../6.PAGES-BOOK-APPOINTMENT/pages-book-appointment.html">Book
+                                            Appointment</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">ERROR 404</a></li>
+                                </ul>
+                            </li>
+                            <li id="li-blogs"><a href="#" class="d-flex navbar-center-dark-as">BLOG<i
+                                        class="fas fa-sort-down"></i></a>
+                                <ul class="dropdown-blogs">
+                                    <li><a href="../7.BLOGS-BLOG/blogs-blog.html">Blog</a></li>
+                                    <li><a href="../8.BLOGS-SINGLE-BLOG/blogs-single-blog.html">Single Blog</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../9.CONTACT/promedi-contact.html" class="navbar-center-dark-as">CONTACT</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-right d-flex align-items-center justify-content-end col-lg-3 col-md-3">
+                        <button class="py-3 px-2">Make an Appointment <i style="font-size: 0.6rem;"
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <nav class="query-nav" role="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 query-img">
+                        <img src="./Assets/IMG/logo.png" alt="Demo">
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 query-i">
+                        <button>
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="col-lg-12 col-md-12 col-sm-12 query-nav-click query-nav-none navbar-right">
+                        <ul>
+                            <li><a class="query-a">HOME<i class="fas fa-sort-down query-icon"></i></a>
+                                <ul class="navbarx-collapse">
+                                    <li><a href="../1.HOMES/promedi-homes.html">Homes Demo 1</a></li>
+                                    <li><a href="../1.HOMES/promedi-homes.html">Homes Demo 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../2.ABOUT/promedi-about.html">ABOUT</a></li>
+                            <li><a class="query-a">DEPARTMENTS<i class="fas fa-sort-down query-icon"></i></a>
+                                <ul class="navbarx-collapse">
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Cardiology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Gynecology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Neurology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Orthopedics</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Gastrology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Pulmonology</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Laboratory</a></li>
+                                    <li><a href="../3.DEPARTMENTS/promedi-departments.html">Urology</a></li>
+                                </ul>
+                            </li>
+                            <li><a style="color: #396cf0;" class="query-a">PAGES<i class="fas fa-sort-down query-icon"></i></a>
+                                <ul class="navbarx-collapse">
+                                    <li><a href="../4.PAGES-SERVICES/promedi-pages-services.html">Services</a></li>
+                                    <li><a href="../5.PAGES-SINGLE-DOCTOR/pages-single-doctor.html">Our Doctor</a></li>
+                                    <li><a href="../5.PAGES-SINGLE-DOCTOR/pages-single-doctor.html">Single Doctor</a></li>
+                                    <li><a style="color: #396cf0;" href="../6.PAGES-BOOK-APPOINTMENT/pages-book-appointment.html">Book Appointment</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">ERROR 404</a></li>
+                                </ul>
+                            </li>
+                            <li><a class="query-a">BLOG<i class="fas fa-sort-down query-icon"></i></a>
+                                <ul class="navbarx-collapse">
+                                    <li><a href="../7.BLOGS-BLOG/blogs-blog.html">Blog</a></li>
+                                    <li><a href="../8.BLOGS-SINGLE-BLOG/blogs-single-blog.html">Single Blog</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="../9.CONTACT/promedi-contact.html">CONTACT</a></li>
+                        </ul>
+                        <button class="py-3 px-2">Make an Appointment <i style="font-size: 0.6rem;"
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-info-bottom container">
+            <div class="row header-info-row">
+                <div class="col-lg-6 col-md-6 col-sm-12 hib1">
+                    <h2>Appointment</h2>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 hib2">
+                    <a href="../1.HOMES/promedi-homes.html">Home</a>
+                    <p>● Appointment</p>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="scroll-top">
+        <a href="#">
+            <i class="fas fa-sort-amount-up-alt"></i>
+        </a>
+    </div>
+
+    <main class="main-wrapper">
+        <section id="top">
+            <div id="container container-top">
+                <div id="top-img">
+                    <img src="./Assets/IMG/top-3.jpg" alt="Demo">
+                </div>
+            </div>
+        </section>
+        <section class="make-an-appointment">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="make-an-appointment-left col-5">
+                        <div class="make-an-appointment-call">
+                            <i class="fas fa-phone-alt"></i>
+                            <h2>1-604-555-5555</h2>
+                        </div>
+                    </div>
+                    <div class="make-an-appointment-right col-7">
+                        <h1>Make an Appointment</h1>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-6">
+                                    <input type="text" placeholder="Name" class="form-control" id="inputText1" required>
+                                </div>
+                                <div class="form-group col-6">
+                                    <input type="email" placeholder="Email" class="form-control" id="inputEmail1"
+                                        required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-6">
+                                    <input type="number" placeholder="Phone Number" class="form-control"
+                                        id="inputPhone1" required>
+                                </div>
+                                <div class="form-group col-6">
+                                    <select id="inputState" class="form-control">
+                                        <option selected disabled>Department</option>
+                                        <option value="0">Cardiology</option>
+                                        <option value="1">Neurology</option>
+                                        <option value="2">Orthopedics</option>
+                                        <option value="3">Radiology</option>
+                                        <option value="4">Surgery</option>
+                                        <option value="5">Urology</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-6">
+                                    <select id="inputDoctors" class="form-control">
+                                        <option selected disabled>Doctor</option>
+                                        <option value="0">Dr. Anym Jackson</option>
+                                        <option value="1">Dr. Mark Jacobson</option>
+                                        <option value="2">Dr. Alex Davidson</option>
+                                        <option value="3">Dr. Jaka Alex</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-6">
+                                    <input type="text" id="date-mask" class="form-control" id="inputDate1">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" id="message" rows="4" placeholder="Message"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-book">BOOK NOW</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            </>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="row footer-top-row">
+                <div class="col-lg-3 col-md-12 col-sm-12 footer-1">
+                    <a href="#">
+                        <img src="./Assets/IMG/logo.png" alt="Demo">
+                    </a>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
+                        maecenas accumsan lacus vel facilisis.
+                    </p>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 footer-2">
+                    <h5>Quick Links</h5>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Doctors</a></li>
+                        <li><a href="#">Gallery</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 footer-3">
+                    <h5>Departments</h5>
+                    <ul>
+                        <li><a href="#">Cardiology</a></li>
+                        <li><a href="#">Neurology</a></li>
+                        <li><a href="#">Orthopedics</a></li>
+                        <li><a href="#">Radiology</a></li>
+                        <li><a href="#">Surgery</a></li>
+                        <li><a href="#">Urology</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-12 footer-4">
+                    <h5>
+                        Contact Us
+                    </h5>
+                    <p>
+                        Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas.
+                    </p>
+                    <ul>
+                        <li class="d-flex align-items-center mb-3">
+                            <i class="fas fa-phone-alt footer-phone"></i>
+                            <div class="ml-2">
+                                <p style="color: #666666;">+1-604-555-5556</p>
+                                <p style="color: #666666;">+1-604-555-5556</p>
+                            </div>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="fas fa-envelope footer-envelope"></i>
+                            <div class="ml-2">
+                                <p style="color: #666666;">info@promedi.com</p>
+                                <p style="color: #666666;">support@promedi.com</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row footer-bottom-row">
+                <div class="col-lg-6 col-md-6 col-sm-12 footer-bottom-row-top-div">
+                    <p>Copyright @ 2019, Promedi. All rights reserved.</p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 footer-bottom-row-bottom-div">
+                    <a class="mr-1" href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./Assets/JS/pages-book-appointment.js"></script>
+</body>
+
+</html>
